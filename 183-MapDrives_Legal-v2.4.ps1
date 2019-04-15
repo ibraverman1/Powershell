@@ -5,7 +5,7 @@ $cn = $env:COMPUTERNAME
 $defaultGateway = (Get-wmiObject Win32_networkAdapterConfiguration | ?{$_.IPEnabled}).DefaultIPGateway
 $cred = Get-Credential -UserName $un -Message "Please enter you password"
 
-$Lawyers = @("jevans","gwilliamson","ablack","mmerchant","alaird","avithiananthan","nkeating","mckeen")
+$Lawyers = @("jevans","gwilliamson","ablack","mmerchant","alaird","avithiananthan","nkeating","rmckeen")
 $LegalAssistants = @("jcollins","friga","mboni","mdimuzio","dvasconselos")
 $GrievancesShare = @("cdaigle","ewarden","ittester")
 $CollectiveAggreementsShare = @("cdaigle","ewarden","jcollins","friga","mboni","mdimuzio","dvasconselos","ittester")
